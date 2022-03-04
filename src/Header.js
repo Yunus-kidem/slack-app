@@ -1,8 +1,8 @@
+import { AccessTime, HelpOutline, Search } from '@mui/icons-material';
+import { Avatar } from '@mui/material';
 import React from 'react'
 import './Header.css';
-import { Avatar } from '@mui/material';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import SearchIcon from '@mui/icons-material/Search';
+
 
 function Header() {
     return (
@@ -10,17 +10,17 @@ function Header() {
 
         <div className="header_left"> 
         <Avatar className="header_avatar" alt='Yunus' src=''/> 
-        <AccessTimeIcon /> 
-        <h2>Trying out!</h2>
+        <AccessTime/>
         </div> 
 
         <div className="header_search"> 
-        <SearchIcon />
-        <input placeholder="search Yunus programmer"/> 
+        <Search/>
+        <input placeholder="Search Slack Programmer"/> 
+        
         </div>    
 
         <div className="header_right"> 
-        {/* help icon */} 
+        <HelpOutline/>
         </div>    
         </div>
     )
