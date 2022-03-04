@@ -16,7 +16,7 @@ function Header() {
 
         <div className="header_search"> 
         <SearchIcon />
-        <input placeholder='search Yunus programmer'/> 
+        <input placeholder="search Yunus programmer"/> 
         </div>    
 
         <div className="header_right"> 
