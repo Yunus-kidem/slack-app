@@ -5,13 +5,13 @@ import Sidebar from './Sidebar';
 function App() {
     return (
         // BEM naming convention
-        <div className="App">
-            <h1> Lahuwel ela kuwetel ela bilah,Inshallah!! </h1> 
-            <Header/>
-            <div className="app_body">
-                <Sidebar/>
-                {/* React-Router */}    
-            </div>      
+        <div className = "App" >
+        <h1> Lahuwela kuwetel ela bilah! </h1>  
+        <Header/>
+        <div className = "app_body" >
+        <Sidebar/> 
+        { /* React-Router */ } 
+        </div>       
         </div>
     );
 }
